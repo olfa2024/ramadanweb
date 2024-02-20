@@ -1,0 +1,30 @@
+
+ 
+
+<br><br><br>
+
+<h1 _ngcontent-ng-c3807716210="" style="color: #fff; font-size: 50px; text-shadow: 0px 2px 5px rgba(0,0,0,.5);">
+    أدعية دينية قصيرة</h1>
+<br><br><br>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-5" *ngFor="let meal of meals">
+            <div class="meal-card">
+                <div class="meal-container">
+                    <h2>{{ meal.name }}</h2><br><br>
+                     <p>{{ meal.description }}</p>
+                    <div class="meal-photo-container">
+                        <a *ngIf="!meal.showVideo && meal.photoUrl" [href]="meal.videoUrl">
+                            <img [src]="meal.photoUrl" alt="Meal Photo" (click)="toggleVideo(meal)">
+                            
+                           
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

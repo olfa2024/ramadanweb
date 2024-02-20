@@ -1,0 +1,102 @@
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - var(--bs-border-width));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    word-wrap: break-word;
+    background-clip: border-box;
+    background-color: var(--bs-card-bg);
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    color: var(--bs-body-color);
+    display: flex;
+    flex-direction: column;
+    height: var(--bs-card-height);
+    min-width: 0;
+
+    margin-top: 150px;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        width: 500px;
+    position: absolute;
+        height: 500px;
+}
+.custom-center-label {
+    text-align: center;
+}
+.text-primary-blue {
+    color: #214570!important;
+}
+.font-semibold {
+    font-family: AdelleSansARA-Semibold;
+}
+.form-label {
+    margin-bottom: 0.5rem;
+}
+.font-semibold {
+    font-family: AdelleSansARA-Semibold;
+}
+label {
+    display: inline-block;
+}
+* {
+    outline: none!important;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+label {
+    cursor: default;
+}
+.text-primary-blue {
+    color: #214570 !important;
+}
+
+.font-semibold {
+    font-family: AdelleSansARA-Semibold;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+}
+
+.font-semibold {
+    font-family: AdelleSansARA-Semibold;
+}
+
+label {
+    display: inline-block;
+}
+
+* {
+    outline: none !important;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet label {
+    cursor: default;
+}
+.font-semibold {
+    font-family: AdelleSansARA-Semibold;
+}

@@ -1,0 +1,126 @@
+.meal-card {
+    border: 1px solid #ccc;
+    /* Bordure de la carte */
+    border-radius: 5px;
+    /* Bordure arrondie */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Ombre de la carte */
+    margin-bottom: 70px;
+    justify-content: right;
+       
+}
+
+/* Style pour le conteneur du repas */
+.meal-container {
+    padding: -5px;
+    justify-content: right;
+        align-items: right;
+        max-width: 1000px;
+            /* Set a maximum width for the container */
+            margin-right: 20px;
+            /* Center the container horizontally */
+            padding: -10px;
+            /* Adjust padding as needed */
+            /* Add some padding to the left and right sides of the container */
+            display: flex;
+            /* Use flexbox */
+            justify-content: flex-end;
+            /* Align contents to the right horizontally */
+       
+}
+
+/* Style pour le titre du repas */
+h2 {
+    font-size: 24px;
+    /* Taille de la police du titre */
+    color: #333;
+    /* Couleur du texte */
+    margin-bottom: 10px;
+    /* Marge en bas du titre */
+}
+
+.container {
+    max-width: 1000px;
+    /* Set a maximum width for the container */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    padding: 0;
+    /* Adjust padding as needed */
+    /* Add some padding to the left and right sides of the container */
+    display: flex;
+    /* Use flexbox */
+    justify-content: flex-end;
+    /* Align contents to the right horizontally */
+    align-items: right;
+    /* Align contents to the center vertically */
+    margin-right: -5px;
+}
+
+/* Style pour le conteneur de la photo du repas */
+.meal-photo-container {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    /* Cela centre le conteneur horizontalement et verticalement */
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    /* Autres styles */
+    
+}
+
+h1 {
+    text-align: center;
+    /* Pour centrer le texte */
+    
+    font-weight: bold;
+    /* Pour mettre le texte en gras */
+}
+
+img {
+
+    /* Définit la largeur de l'image à 100% du conteneur */
+
+    width: 700px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* Hauteur automatique pour conserver les proportions */
+}
+
+/* Style pour la description du repas */
+p {
+    font-size: 16px;
+    /* Taille de la police de la description */
+    color: #666;
+    /* Couleur du texte */
+    margin-bottom: 15px;
+    /* Marge en bas de la description */
+}
+
+/* Style pour le conteneur de la photo du repas */
+
+
+/* Style pour l'image du repas */
+img,
+video {
+    max-width: 100%;
+    /* Largeur maximale de l'image ou de la vidéo */
+    height: auto;
+    /* Hauteur automatique pour conserver les proportions */
+    cursor: pointer;
+    /* Curseur pointer pour indiquer que l'élément est cliquable */
+}
+
+/* Style pour la vidéo du repas */
+video {
+    position: absolute;
+    /* Position absolue pour superposer la vidéo à l'image */
+    top: 0;
+    /* Position en haut de l'élément parent */
+    left: 0;
+    /* Position à gauche de l'élément parent */
+    display: none;
+    /* Masquer la vidéo par défaut */
+}

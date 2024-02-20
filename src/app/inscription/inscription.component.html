@@ -1,0 +1,46 @@
+<div class="col-sm-12 col-md-8 col-lg-6 col-xl-4 col-12 mb-3">
+    <div class="card card-shadow p-sm-5 text-center p-xl-1">
+        <form id="loginForm" action="/auth/login" method="post" novalidate="novalidate">
+
+            <img class="my-3" width="80" src="/assets/inscrit.png" alt="">
+            <h4 class="text-primary-blue pb-2 mb-2" aria-level="2">تسجيل الدخول</h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group mb-3 text-start">
+                            <label class="form-label text-primary-blue font-semibold" for="PhoneNumber">الاسم</label>
+                            <input class="form-control only-number-with-paste" type="text" inputmode="numeric"
+                                pattern="\d*" maxlength="10" placeholder="" data-val="true"
+                                data-val-regex="صيغة رقم الجوال غير صحيحة" data-val-regex-pattern="^(05)[0-9]{8}$"
+                                data-val-required="رقم الجوال مطلوب" id="PhoneNumber" name="PhoneNumber" value="">
+                            <label class="form-label text-primary-blue font-semibold" for="PhoneNumber">اللقب</label>
+                            <input class="form-control only-number-with-paste" type="text" inputmode="numeric"
+                                pattern="\d*" maxlength="10" placeholder="" data-val="true"
+                                data-val-regex="صيغة رقم الجوال غير صحيحة" data-val-regex-pattern="^(05)[0-9]{8}$"
+                                data-val-required="رقم الجوال مطلوب" id="PhoneNumber" name="PhoneNumber" value="">
+                            <label class="form-label text-primary-blue font-semibold custom-center-label" for="PhoneNumber">البريد
+                                الالكتروني</label>
+
+                            <input class="form-control only-number-with-paste" type="text" inputmode="numeric"
+                                pattern="\d*" maxlength="10" placeholder="" data-val="true"
+                                data-val-regex="صيغة رقم الجوال غير صحيحة" data-val-regex-pattern="^(05)[0-9]{8}$"
+                                id="PhoneNumber" name="PhoneNumber" value="">
+                            <label class="form-label text-primary-blue font-semibold" for="PhoneNumber">كلمة
+                                العبور</label>
+                            <input class="form-control only-number-with-paste" type="text" inputmode="numeric"
+                                pattern="\d*" maxlength="10" placeholder="" data-val="true" id="PhoneNumber"
+                                name="PhoneNumber" value="">
+                            <span class="text-danger field-validation-valid" role="alert" data-valmsg-for="PhoneNumber"
+                                data-valmsg-replace="true"></span>
+                        </div>
+
+                        <div class="col-12 mb-3 ps-xl-4">
+                        </div>
+                    </div>
+                </div>
+                <button id="submitBtn" class="btn btn-primary-blue rounded-pill px-4" type="submit" value="OK"
+                    disabled="">إرسال
+                </button>
+                
+
+            </div>

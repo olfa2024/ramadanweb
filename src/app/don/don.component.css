@@ -1,0 +1,270 @@
+nav {
+    background-color: rgb(242 242 242);
+    height: 60px;
+
+}
+
+#inscrit {
+
+    color: #214570 !important;
+    font-weight: var(--bs-nav-link-font-weight);
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+#cart {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+header .navbar {
+    height: 75px;
+    transition: .3s;
+    float: right;
+
+}
+
+.bg-white {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #214570 !important;
+    font-family: AdelleSansARA-Semibold;
+    font-size: 1.2rem;
+    padding: 0.7rem 1rem;
+    position: relative;
+    transition: .3s;
+}
+
+.navbar-brand img {
+    margin-top: -5px;
+    width: 150px;
+    height: auto;
+    float: right;
+    position: relative;
+    margin-left: 1200px;
+
+    align-items: center;
+    background: #fff;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 3px 5px hsla(0, 0%, 67%, .16);
+    display: flex;
+    height: 152px;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    justify-content: center;
+    padding: 15px 20px 30px;
+    position: absolute;
+    transition: .3s;
+    width: 141px;
+    z-index: 999;
+
+
+}
+
+header .navbar {
+    height: 75px;
+    transition: .3s;
+
+}
+
+.bg-white {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.navbar-expand-md {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+ul {
+    float: right;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+}
+
+.navbar .container {
+    padding-inline-start: 160px;
+    align-items: center;
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: space-between;
+
+}
+
+header .nav-link {
+    font-family: AdelleSansARA-Semibold;
+    font-size: 30px;
+    padding: 0.7rem 1rem;
+    position: relative;
+    transition: .3s;
+    margin-right: 30px;
+}
+
+header {
+    margin-right: 250px;
+}
+
+header[_ngcontent-ng-c3878061772] .navbar-light[_ngcontent-ng-c3878061772] .navbar-nav[_ngcontent-ng-c3878061772] .nav-link[_ngcontent-ng-c3878061772] {
+    color: #214570 !important;
+    font-size: 25px;
+}
+
+.carousel-inner img {
+    width: 99%;
+    height: 470px;
+}
+
+.mx-auto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 25%;
+
+}
+
+.hr1 {
+    float: right;
+    height: 2px;
+
+    /* Taille de la ligne hr1 */
+}
+
+.hr2 {
+    float: left;
+    height: 2px;
+    /* Taille de la ligne hr2 */
+}
+
+.card {
+    width: 400px;
+    height: auto;
+}
+
+.card img {
+    width: 300px;
+    height: 150px;
+}
+
+.card-text {
+    color: #21446f;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-primary-green {
+    background: #21446f;
+    color: #fff;
+    float: right;
+    width: 125px;
+    margin-right: 200px;
+}
+
+.btn-round-icon {
+    border-radius: 50%;
+    font-size: 20px;
+    height: 37px;
+    padding: 4px 0;
+    width: 38px;
+    background-color: #0d8f75;
+    color: #ffffff;
+    float: left;
+}
+
+mat-icon {
+    margin-left: 9px;
+    margin-top: 2px;
+}
+
+.form-control {
+    border-radius: 30px;
+    width: 190px;
+    float: right;
+    margin-top: -80px;
+}
+
+input::placeholder {
+    font-weight: bold;
+    text-align: right;
+    color: rgb(210, 199, 199);
+}
+
+
+.food1 img {
+    width: 1200px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+strong {
+
+    font-weight: bold;
+    font-size: 25px;
+    font-family: inherit;
+    text-align: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: auto;
+    line-height: 32px;
+}
+
+p {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    margin-top: 0px;
+}
+
+.PageContentPanel h4 {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: inherit;
+    text-align: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: auto;
+    line-height: 32px;
+}
+
+ul {
+    text-align: right;
+}
+
+li {
+    text-align: right;
+}
+
+.card-shadow {
+    border: none;
+    box-shadow: 0 2px 15px 0 rgba(78, 78, 78, .1);
+}
